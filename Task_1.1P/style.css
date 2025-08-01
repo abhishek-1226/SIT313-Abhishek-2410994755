@@ -1,0 +1,56 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+h1 {
+  color: #4caf50;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+nav {
+  background-color: white;
+  display: flex;
+  align-content: left;
+  position-anchor: fixed;
+  /* This property is used to fix the navigation bar to the top of the page */
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+.background-image {
+  width: 100%;
+  height: 450px;
+}
+a {
+  text-decoration: none;
+  /* The above property is used to remove the bluish underline from the links */
+  color: teal;
+}
+.header-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px 30px;
+
+  font-size: 24px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.header-container:hover .hover-text {
+  opacity: 1;
+}
+/* THe above code is used to create the hover effect on the image as it shows the text when the user hovers the mouse pointer over the image */

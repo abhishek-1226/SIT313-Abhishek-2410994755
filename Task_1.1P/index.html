@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- The tag above is used to create a navigation bar which helps us in moving through different pages. -->
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-container">
+      <!-- The Div tag used above is used to make a container and add more content inside it which can be helpful as we are trying to group different sections of the pages together. -->
+      <img
+        src="..\images\deakin1.jpg"
+        alt="Sorry image not found"
+        class="background-image"
+      />
+      <!-- The img tag is used to add an image and its attribute src is used to specify the path of the image and the alt is used to display an alternate message in case that the image is unavailable. -->
+      <div class="hover-text">Hello, I am Abhishek Mohindra</div>
+    </div>
+    <div>
+      <img
+        src="..\images\pfp.png"
+        alt="Sorry image not found"
+        style="
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+        "
+      />
+      <h3
+        style="
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 30px;
+          color: teal;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+        <!-- The h3 tag is used to create a hrading -->
+        I am an aspiring Software Engineering student from Chitkara University,
+        Punjab
+      </h3>
+      <div
+        style="border-bottom: 6px solid teal; width: 300px; margin: 10px auto"
+      ></div>
+      <h1
+        style="
+          text-align: center;
+          margin-top: 30px;
+          color: teal;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+        Here is what I have done so far
+      </h1>
+      <div style="text-align: center">
+        <table style="display: inline-block; margin: 0 auto">
+          <!-- To add the images of the projects with their descriptions, I have used a table because it is easy to work with and can be used to align the images and text correctly. -->
+          <tr>
+            <td>
+              <img
+                src="..\images\meal_plan.jpeg"
+                alt="Project 1"
+                style="width: 500px; border-radius: 10px"
+              />
+            </td>
+            <td
+              style="
+                vertical-align: middle;
+                padding-left: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                color: teal;
+              "
+            >
+              Meal Plan generator
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="..\images\banking_system.png"
+                alt="Project 1"
+                style="width: 500px; border-radius: 10px"
+              />
+            </td>
+            <td
+              style="
+                vertical-align: middle;
+                padding-left: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                color: teal;
+              "
+            >
+              Banking System on Terminal using CSS
+            </td>
+          </tr>
+        </table>
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+          "
+        >
+          <!-- This div is used to add images of the campus and the areas and I have used flex wrap to make sure that when the screen size is changed, the orientation of the images change accordingly. -->
+          <img
+            src="..\images\campus-1.jpg"
+            alt="No Picture Found"
+            style="
+              width: 250px;
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+            "
+          />
+          <img
+            src="..\images\campus2.jpeg"
+            alt="No Picture Found"
+            style="
+              width: 250px;
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+            "
+          />
+          <img
+            src="..\images\campus3.jpeg"
+            alt="No Picture Found"
+            style="
+              width: 250px;
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+            "
+          />
+          <img
+            src="..\images\campus4.jpeg"
+            alt="No Picture Found"
+            style="
+              width: 250px;
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+            "
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
